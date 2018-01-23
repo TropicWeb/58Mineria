@@ -1,1 +1,1 @@
-# 58Mineria
+# +58mining
