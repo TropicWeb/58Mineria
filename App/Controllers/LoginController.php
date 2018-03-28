@@ -31,7 +31,37 @@
 		}
 
 		public function postIndex(){
-			return $this->render('../views/main.php');
+			//Query to find password match
+			$sql = 'SELECT id, password, n_entries
+				    FROM user
+				    WHERE password like :pass';
+			$var = $GLOBALS['gbd']->prepare($sql);
+			//Query to modify n_entries	
+			$sql2 = 'UPDATE user set n_entries = :n WHERE id = :id';
+			$var2 = $GLOBALS['gbd']->prepare($sql2);
+
+			//Execute password match
+			$var->execute([
+					':pass' => $_POST['password']
+				]);
+			$result = $var->fetchAll();
+			
+
+			if(isset($result[0]['id'])){	
+				$_SESSION['id'] = $result[0]['id'];
+				$_SESSION['password'] = $result[0]['password'];
+				$_SESSION['n_entries'] = $result[0]['n_entries'];
+				//Execute n-entries update
+				$var2->execute([
+					':n' => $_SESSION['n_entries']+1,
+					':id' => $_SESSION['id']
+				]);
+				$_SESSION['n_entries'] = $result[0]['n_entries']+1;
+				header('Location:' . BASE_URL);	
+			}else{
+				return $this->render('../views/login.php', ['error' => true]);
+			}
+			
 		}
 	}
 	

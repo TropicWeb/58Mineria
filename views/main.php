@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta name="description" content="Proyecto interno, +58 investors.">
   <meta name="author" content="TropicWDM">
-	<title>+58 Miming</title>
+  <title>+58 Mining</title>
   <link rel="icon" href="images/favicon.png">
-	<link rel="stylesheet" href="CSS/bootstrap.min.css">
-	<link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
 
+<p>
+  <?php echo "Usuario: $_SESSION[id]";?>
+  <br>
+  <?php echo "Password: $_SESSION[password]";?>  
+  <br>
+  <?php echo "N-entries: $_SESSION[n_entries]";?>  
+</p>
 
  <!--Seccion 1--> 
 
@@ -162,8 +169,21 @@
   </div>
 </section>
 
-	<script src="JS/jquery.js"></script>
-	<script src="JS/bootstrap.min.js"></script>
+<section class="container-fluid sectionunoC">
+  <div class="row">
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+      <div class="center">
+        <video src="media/video.mp4" controls>
+          Tu navegador no implementa el elemento <code>video</code>.
+        </video>
+      </div>
+      <p class="text-center mar"><a href="logout" class="out">Salir</a></p>
+    </div>
+  </div>
+</section>
+
+  <script src="JS/jquery.js"></script>
+  <script src="JS/bootstrap.min.js"></script>
   <script src="JS/jquery.easing.min.js"></script>
   <script src="JS/carousel.js"></script>
 </body>

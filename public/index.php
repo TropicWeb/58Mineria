@@ -1,9 +1,22 @@
 <?php  
  	
  	require_once '../vendor/autoload.php'; //Composer 
+ 	require_once '../.env';
 
  	//Iniciar sesion
  	session_start();
+
+ 	//CONEXION BD
+
+ 	/* Conectar a una base de datos de MySQL invocando al controlador */
+	$dsn = "mysql:dbname=$DBNAME;host=$DBHOST";
+
+	try { 
+	   $GLOBALS['gbd'] = new PDO($dsn, $DBUSER, $DBPASS);
+	} catch (PDOException $e) {
+	    echo 'Falló la conexión: ' . $e->getMessage();
+	}
+
 
  	//RUTA BASE
 	$baseDir = str_replace(basename($_SERVER['SCRIPT_NAME']),'',$_SERVER['SCRIPT_NAME']);
@@ -15,10 +28,23 @@
 
 	$route = $_GET['route'] ?? '/';
 
-	//RUTAS
+	//MIDDLEWARES
+	$router->filter('auth',function(){
+		if(!isset($_SESSION['id'])){
+		    header('Location:' . BASE_URL . 'login');
+		    return false;
+		}
+	});
 
-	//Counter/Login/404
-	$router->controller('/',App\Controllers\LoginController::class);
+	//RUTAS
+	//LOGIN
+	$router->controller('/login', App\Controllers\LoginController::class);
+
+	//OTHERS
+	$router->group(['before' => 'auth'], function($router){
+		//INDEX
+		$router->controller('/', App\Controllers\IndexController::class);
+	});
 
 
 	//Respuesta del server

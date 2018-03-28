@@ -8,7 +8,7 @@
   <meta name="author" content="Miguel Fraga ,Diego Di Salvatore and Gabriel Taccone">
 
 
-  <title>Proyecto Libertad</title>
+  <title>+58 Mining</title>
   <link rel="icon" href="images/favicon.png">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
@@ -22,7 +22,7 @@
 	<article class="row logi">
 		<article class="col-md-4 col-xs-2 col-sm-2"></article>
 		<article class="col-md-4 col-xs-8 col-sm-8">
-			<img class="img-responsive" src="images/logo.png">
+			<img class="img-responsive" src="images/logo5.png">
 		</article>
 		<article class="col-md-4 col-xs-2 col-sm-2"></article>
 	</article>
