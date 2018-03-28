@@ -1,0 +1,15 @@
+
+body{
+	box-sizing: border-box;
+	background-image: url("../images/test5.png");
+    background-repeat: repeat;
+}
+
+.sectionunoA{
+	margin-top: 50px;
+}
+
+.sectionunoB{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
