@@ -21,7 +21,7 @@
 		<div class="col-md-2 col-lg-2"></div>
 		<div class="col-md-8 col-lg-8">
 			<div id="p1" class="contador animated">
-    			<p id="p2" class="text-center animated postext">30</p>
+    			<p id="p2" class="text-center animated postext"><?php echo $params['days']; ?></p>
     			<p class="text-center dayC"> DAYS </p>
     		</div>
   		</div>		
