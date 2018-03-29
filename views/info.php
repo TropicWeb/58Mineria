@@ -52,7 +52,7 @@
     </section>
 
     <div class="prueba">
-      <p class="text-center "><a  class="weltex" href=" <?php echo BASE_URL;?>">Volver <i class="far fa-arrow-alt-circle-left"></i></a></p>
+      <p class="text-center "><a  class="weltex" href=" <?php echo BASE_URL;?>">Volver</a></p>
     </div>
     
 	</section>
