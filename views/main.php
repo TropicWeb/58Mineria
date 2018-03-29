@@ -177,8 +177,8 @@
           Tu navegador no implementa el elemento <code>video</code>.
         </video>
       </div>
-      <p class="text-center mar"><a href="logout" class="out">Salir</a></p>
       <p class="text-center mar"><a href="logout" class="out">Reporte de entradas</a></p>
+      <p class="text-center mar"><a href="logout" class="out">Salir</a></p>
     </div>
   </div>
 </section>
