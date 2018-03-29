@@ -178,7 +178,7 @@
         </video>
       </div>
       <p class="text-center mar"><a href="logout" class="out">Salir</a></p>
-      <p class="text-center mar"><a href="logout" class="out">Reporte de entradas</a></p>
+      <p class="text-center mar"><a href="info" class="out">Reporte de entradas</a></p>
     </div>
   </div>
 </section>

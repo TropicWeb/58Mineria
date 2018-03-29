@@ -14,6 +14,9 @@
 			header('Location:'. BASE_URL);
 		}
 
+		public function getInfo(){
+			return $this->render('../views/info.php');
+		}
 	}
 	
  ?>
