@@ -1,0 +1,34 @@
+
+body{
+	box-sizing: border-box;
+	background-image: url("../images/test6.png");
+    background-repeat: repeat;
+	
+}
+
+th,td,.clog{
+	color: black;
+}
+
+thead,tbody{
+	background-color: white;
+}
+
+.prueba{
+	margin-top: 50px;
+}
+
+.infotable{
+	margin-top:250px;
+}
+
+.weltex{
+	color: white;
+	font-size: 25px;
+}
+
+.weltex:hover{
+	color: #ce9729;
+	text-decoration: none;
+}
+
