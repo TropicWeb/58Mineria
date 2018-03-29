@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="description" content="Landing Page de la productora +58Films">
+  <meta name="description" content="+58mining">
   <meta name="author" content="Miguel Fraga ,Diego Di Salvatore and Gabriel Taccone">
 
 

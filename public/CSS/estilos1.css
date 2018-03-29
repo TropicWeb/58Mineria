@@ -90,3 +90,24 @@ body{
 .prueba{
 	margin-top: 100px;
 }
+@media (max-width: 450px){
+	.forem{
+		height: 210px;
+	}
+	.boton{
+		margin-top:25px;
+		width: 120px;
+		height: 40px;
+
+	}
+	.contraseña{
+		margin-top: 25px;
+		width: 120px;
+	}
+
+
+
+	.contraseña:hover{
+		width: 180px;
+	}	
+}

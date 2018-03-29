@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="description" content="Info +58Films">
+  <meta name="description" content="Info +58Mining">
   <meta name="author" content="Miguel Fraga ,Diego Di Salvatore and Gabriel Taccone">
 
   <title>+58 Mining</title>
@@ -30,21 +30,14 @@
             </tr>
           </thead>  
           <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td><?php echo 'Waraira Repano';?></td>
-              <td><?php echo $entradas[0];?></td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td><?php echo 'Araguaney';?></td>
-              <td><?php echo $entradas[1];?></td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td><?php echo 'Auyantepuy';?></td>
-              <td><?php echo $entradas[2];?></td>
-            </tr>
+            <?php foreach ($result as $key => $value):
+              $resultTemp = $value; ?>
+              <tr>
+                <th scope="row"><?php echo $resultTemp['id'];?></th>
+                <td><?php echo $resultTemp['password'];?></td>
+                <td><?php echo $resultTemp['n_entries'];?></td>
+              </tr>
+            <?php endforeach;?>
           </tbody>
         </table>
       </div>

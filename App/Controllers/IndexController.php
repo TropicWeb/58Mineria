@@ -8,14 +8,23 @@
 		}
 
 		public function getLogout(){
-			unset($_SESSION[id]);
-			unset($_SESSION[password]);
+			unset($_SESSION['id']);
+			unset($_SESSION['password']);
 			session_destroy();
 			header('Location:'. BASE_URL);
 		}
 
 		public function getInfo(){
-			return $this->render('../views/info.php');
+			//Preparar consulta
+			$sql = 'SELECT *
+					FROM user';
+			$var = $GLOBALS['gbd']->prepare($sql);
+
+			//EJECUTAR
+			$var->execute();
+			$result = $var->fetchAll();
+
+			return $this->render('../views/info.php', ['result' => $result]);
 		}
 	}
 	

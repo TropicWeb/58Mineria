@@ -12,15 +12,18 @@
 </head>
 <body>
 
-<p>
-  <?php echo "Usuario: $_SESSION[id]";?>
-  <br>
-  <?php echo "Password: $_SESSION[password]";?>  
-  <br>
-  <?php echo "N-entries: $_SESSION[n_entries]";?>  
-</p>
-
  <!--Seccion 1--> 
+ <section class="container-fluid sectionunoC">
+  <div class="row">
+    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+      <div class="center">
+        <video src="media/video.mp4" controls>
+          Tu navegador no implementa el elemento <code>video</code>.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="container-fluid sectionunoA">
   <div class="row">
@@ -164,24 +167,13 @@
             <span class="sr-only">Next</span>
           </a>
       </div>
+            <p class="text-center mar <?php if($_SESSION['id']!=1) echo 'false';?>"><a href="info" class="out">Reporte de entradas</a></p>
+      <p class="text-center mar"><a href="logout" class="out">Salir</a></p>
     </div>
     <div class="col-md-2 col-lg-2"></div>
   </div>
 </section>
 
-<section class="container-fluid sectionunoC">
-  <div class="row">
-    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-      <div class="center">
-        <video src="media/video.mp4" controls>
-          Tu navegador no implementa el elemento <code>video</code>.
-        </video>
-      </div>
-      <p class="text-center mar"><a href="logout" class="out">Reporte de entradas</a></p>
-      <p class="text-center mar"><a href="logout" class="out">Salir</a></p>
-    </div>
-  </div>
-</section>
 
   <script src="JS/jquery.js"></script>
   <script src="JS/bootstrap.min.js"></script>

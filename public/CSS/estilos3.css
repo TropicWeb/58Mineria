@@ -8,10 +8,16 @@ body{
 
 th,td,.clog{
 	color: black;
+	border: 3px solid black;
 }
 
 thead,tbody{
 	background-color: #B3B3B3;
+	border: 5px solid black;
+}
+
+table{
+	border: 3px solid black;
 }
 
 .prueba{
@@ -32,3 +38,6 @@ thead,tbody{
 	text-decoration: none;
 }
 
+.table{
+	margin-top: -10px; 
+}

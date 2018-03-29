@@ -26,7 +26,7 @@
 
 			}else{
 				//COUNTER OFF
-				return $this->render('../views/login.php');
+				return $this->render('../views/login.php', ['error'=>false]);
 			}	
 		}
 
