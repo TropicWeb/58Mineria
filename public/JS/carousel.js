@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$(".carousel").carousel({
-		"interval":false
+		"interval":1000000
 	});
 	$('[data-toggle="tooltip"]').tooltip();
 	$('[data-toggle="popover"]').popover();

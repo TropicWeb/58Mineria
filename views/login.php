@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+  
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="description" content="+58mining">
+  <meta name="description" content="Login +58Mining">
   <meta name="author" content="Miguel Fraga ,Diego Di Salvatore and Gabriel Taccone">
 
 

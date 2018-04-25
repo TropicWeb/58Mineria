@@ -1,0 +1,80 @@
+[06-Apr-2018 02:18:59 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:18:59 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:19:04 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:19:04 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:19:07 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:19:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:19:09 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:19:09 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:23 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:23 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:29 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:29 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:41 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:41 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:42 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:42 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:42 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:42 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:43 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:43 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:43 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:43 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:43 UTC] PHP Warning:  require_once(../.env): failed to open stream: No such file or directory in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 02:20:43 UTC] PHP Fatal error:  require_once(): Failed opening required '../.env' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php on line 4
+[06-Apr-2018 03:08:41 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route CSS/bootstrap.min.css.map does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('GET', 'CSS/bootstrap.m...')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('GET', 'CSS/bootstrap.m...')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('GET', 'CSS/bootstrap.m...')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218
+[12-Apr-2018 12:53:36 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route robots.txt does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('GET', 'robots.txt')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('GET', 'robots.txt')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('GET', 'robots.txt')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218
+[12-Apr-2018 16:38:15 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route robots.txt does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('HEAD', 'robots.txt')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('HEAD', 'robots.txt')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('HEAD', 'robots.txt')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218
+[12-Apr-2018 16:38:15 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route robots.txt does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('GET', 'robots.txt')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('GET', 'robots.txt')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('GET', 'robots.txt')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218
+[12-Apr-2018 18:15:52 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route robots.txt does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('GET', 'robots.txt')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('GET', 'robots.txt')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('GET', 'robots.txt')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218
+[12-Apr-2018 18:15:52 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route robots.txt does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('GET', 'robots.txt')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('GET', 'robots.txt')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('GET', 'robots.txt')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218
+[15-Apr-2018 23:23:53 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route wp-login.php does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('GET', 'wp-login.php')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('GET', 'wp-login.php')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('GET', 'wp-login.php')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218
+[23-Apr-2018 05:48:17 UTC] PHP Fatal error:  Uncaught Phroute\Phroute\Exception\HttpRouteNotFoundException: Route 403.shtml does not exist in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php:218
+Stack trace:
+#0 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(123): Phroute\Phroute\Dispatcher->dispatchVariableRoute('GET', '403.shtml')
+#1 /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php(47): Phroute\Phroute\Dispatcher->dispatchRoute('GET', '403.shtml')
+#2 /home/f03nmlm0v23l/public_html/plus58mining.info/public/index.php(52): Phroute\Phroute\Dispatcher->dispatch('GET', '403.shtml')
+#3 {main}
+  thrown in /home/f03nmlm0v23l/public_html/plus58mining.info/vendor/phroute/phroute/src/Phroute/Dispatcher.php on line 218

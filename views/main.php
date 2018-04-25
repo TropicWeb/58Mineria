@@ -168,7 +168,7 @@
           </a>
       </div>
             <p class="text-center mar <?php if($_SESSION['id']!=1) echo 'false';?>"><a href="info" class="out">Reporte de entradas</a></p>
-      <p class="text-center mar"><a href="logout" class="out">Salir</a></p>
+      <p class="text-center mar1"><a href="logout" class="out">Salir</a></p>
     </div>
     <div class="col-md-2 col-lg-2"></div>
   </div>
