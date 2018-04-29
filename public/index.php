@@ -1,7 +1,7 @@
 <?php  
  	
  	require_once '../vendor/autoload.php'; //Composer 
- 	require_once '../.env';
+ 	require_once '../.env.txt';
 
  	//Iniciar sesion
  	session_start();

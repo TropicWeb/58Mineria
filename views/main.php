@@ -6,6 +6,7 @@
   <meta name="description" content="Proyecto interno, +58 investors.">
   <meta name="author" content="TropicWDM">
   <title>+58 Mining</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="icon" href="images/favicon.png">
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/estilos.css">
@@ -13,11 +14,34 @@
 <body>
 
  <!--Seccion 1--> 
+
+ <section class="container-fluid sectionunoC">
+  <div class="row">
+    <div class="col-md-5 col-xs-12 col-sm-12 col-lg-5"></div>
+    <div class="col-md-5 col-xs-12 col-sm-12 col-lg-5"></div>
+    
+    <div class="col-md-1 col-xs-12 col-sm-12 col-lg-1">
+      <!--<i class="fas fa-bars menu"></i>-->
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <i class="fas fa-globe menu"></i> <span class="caret"></span>
+        </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Ingles</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Español</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="col-md-1 col-xs-12 col-sm-12 col-lg-1"></div>
+  </div>
+</section>
+
  <section class="container-fluid sectionunoC">
   <div class="row">
     <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
       <div class="center">
-        <video src="media/video.mp4" controls>
+        <video src="media/video.mp4" controls class="video">
           Tu navegador no implementa el elemento <code>video</code>.
         </video>
       </div>
